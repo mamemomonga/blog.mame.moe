@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+# languageCode = "en-us"
+languageCode = "ja-jp"
+title = "まめものブログ"
+theme = "ananke"
