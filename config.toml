@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.mame.moe/"
 # languageCode = "en-us"
 languageCode = "ja-jp"
 title = "まめものブログ"
