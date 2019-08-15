@@ -37,12 +37,6 @@
   </url>
   
   <url>
-    <loc>https://blog.mame.moe/categories/hugo/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.mame.moe/tags/hugo/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -55,6 +49,12 @@
   
   <url>
     <loc>https://blog.mame.moe/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/categories/%E3%83%96%E3%83%AD%E3%82%B0/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
