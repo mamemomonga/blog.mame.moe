@@ -5,5 +5,8 @@ aliases: ["about-us","contact"]
 author: "mamemomonga"
 
 ---
+
 まめもと申します。[詳しくはこちら](https://mamemomonga.keybase.pub)をご覧下さい。
+
+このサイトはGithub Pagesでホスティングしています。ソースは[こちら](https://github.com/mamemomonga/blog.mame.moe)です。
 
