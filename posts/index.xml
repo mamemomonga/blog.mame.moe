@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on まめものブログ</title>
+    <link>https://blog.mame.moe/posts/</link>
+    <description>Recent content in Posts on まめものブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 15 Aug 2019 11:57:30 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.mame.moe/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>こんにちは世界</title>
+      <link>https://blog.mame.moe/posts/190815-01-hello-world/</link>
+      <pubDate>Thu, 15 Aug 2019 11:57:30 +0900</pubDate>
+      
+      <guid>https://blog.mame.moe/posts/190815-01-hello-world/</guid>
+      <description>なんかblogを再開してみたくなって、Hugoをつかって初めてみました。どうぞよろしく。
+Hugoでブログ開始するメモ $ hugo new site blog.mame.moe $ cd blog.mame.moe $ git init $ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke $ echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml $ hugo new posts/190815-01-hello-world.md $ mvim content/posts/190815-01-hello-world.md $ mvim config.toml $ hugo server -D $ cat &amp;gt; .gitignore &amp;lt;&amp;lt; &#39;EOS&#39; /public *.swp EOS $ git add . $ git commit -a -m &#39;initial import&#39; $ git remote add origin git@github.com:mamemomonga/blog.mame.moe.git $ git push origin master $ cp -r .</description>
+    </item>
+    
+  </channel>
+</rss>

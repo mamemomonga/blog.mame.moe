@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <title>Hugoセットアップメモ - まめものブログ</title>
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' href='https://blog.mame.moe/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='https://blog.mame.moe/css/custom.css' type='text/css' media='all' />
+        
+</head>
+    <body class="two-column">
+        <a href="#content">Skip to content</a>
+<div class="wrapper">
+    <header role="banner" class="banner widgets columns-1">
+        <a href="/" rel="home">
+            <h1 class="site">まめものブログ</h1>
+            <p></p>
+        </a>
+        <nav role="navigation" aria-label="Primary Navigation">
+
+            <ul class="menu">
+                <li class="menu-item "><a class="menu__link" href="/about/">ABOUT</a></li>
+            </ul>
+            <select onChange="location.href=value;">
+                <option value="/about/" class="menu-item menu-item-type-custom menu-item-object-custom" >ABOUT</option>
+            </select>
+        </nav>
+    </header>
+
+    <br>
+    <div style="width: 100%; max-height: 100px; text-align: center;">
+       
+</div>
+
+    <div class="breadcrumbs">
+        
+    </div>
+        <div id="content" class="content">
+
+<main role="main">
+    <article role="article" class="post type-post format-standard hentry">
+        <header class="post-header">
+            <h1>Hugoセットアップメモ</h1>
+            <div class="post-details">
+                <a rel="bookmark">
+                    <time datetime="2019-08-15T815:120:06">2019-08-15</time>
+                </a>
+				
+<span style="float: right;">
+    <div id="fb-root" style="height: 100%;"></div>
+    
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2"></script>
+    
+    <div class="fb-share-button" data-href="https://blog.mame.moe/hugo%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%83%A1%E3%83%A2/" data-layout="button_count" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.mame.moe%2fhugo%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%25A1%25E3%2583%25A2%2f" class="fb-xfbml-parse-ignore">Share</a>
+    </div>
+    &nbsp;
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Hugoセットアップメモ" data-url="https://blog.mame.moe/hugo%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%83%A1%E3%83%A2/" data-show-count="false">Tweet</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    &nbsp;
+    
+    <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fblog.mame.moe%2fhugo%25E3%2582%25BB%25E3%2583%2583%25E3%2583%2588%25E3%2582%25A2%25E3%2583%2583%25E3%2583%2597%25E3%2583%25A1%25E3%2583%25A2%2f&title=Hugo%e3%82%bb%e3%83%83%e3%83%88%e3%82%a2%e3%83%83%e3%83%97%e3%83%a1%e3%83%a2" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-counter">
+        <img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" width="20" height="20" style="border: none;" />
+    </a>
+    <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    
+</span>
+
+            </div>
+        </header>
+
+        <div class="post-content">
+            <p>Hugoのセットアップメモ</p>
+
+<pre><code>$ hugo new site blog.mame.moe
+$ cd blog.mame.moe
+$ git init
+$ git submodule addhttps://github.com/tosi29/inkblotty.git themes/inkblotty
+$ echo 'theme = &quot;inkblotty&quot;' &gt;&gt; config.toml
+$ cp -a themes/inkblotty/exampleSite/content .
+
+$ hugo new post/190815-01-hello-world.md
+$ vim content/post/190815-01-hello-world.md
+$ vim config.toml
+$ hugo server -D
+
+$ cat &gt; .gitignore &lt;&lt; 'EOS'
+/public
+*.swp
+EOS
+
+$ git add .
+$ git commit -a -m 'initial import'
+$ git remote add origin git@github.com:mamemomonga/blog.mame.moe.git
+$ git push origin master
+$ cp -r .git public/
+$ cd public
+$ git checkout -b gh-pages
+$ git branch -D master
+$ git add .
+$ git commit -a -m 'initial import gh-pages'
+$ git push origin gh-pages
+</code></pre>
+
+<ul>
+<li>blog.mame.moeのCNAMEに mamemomonga.github.io を割当</li>
+<li><a href="https://github.com/mamemomonga/blog.mame.moe/settings">https://github.com/mamemomonga/blog.mame.moe/settings</a> でドメインの設定</li>
+<li>Enforce httpsを有効にする(反映に時間かかる)</li>
+</ul>
+        </div>
+
+        <footer class="post-footer">
+            
+            <span class="post-categories">
+                
+                <a href="https://blog.mame.moe/categories/hugo" rel="tag">hugo</a>
+                
+            </span>
+            
+
+            
+            <span class="post-tags">
+                
+                <a href="https://blog.mame.moe/tags/hugo" rel="tag">hugo</a>&emsp;
+                
+            </span>
+            
+        </footer>
+        
+<table cellspacing="15" style="width:100%; border: none;">
+    <tr>
+        <td style="text-align: center; border: none; padding: 0px;">
+        </td>
+        <td style="text-align: center; border: none; padding: 0px;">
+        </td>
+    </tr>
+</table>
+
+        
+	
+	
+	<h4>関連記事</h4>
+	<ol style="margin-left: 30px; list-style-type: decimal;">
+		
+		<li><strong><a href="/%E3%83%96%E3%83%AD%E3%82%B0%E5%A7%8B%E3%82%81%E3%81%9F/">ブログ始めた</a></strong></li>
+		
+	</ol>
+	
+
+    </article>
+
+    
+    <nav class="navigation post-navigation" role="navigation">
+        <div class="nav-links">
+            <div class="nav-previous">
+                
+                <a class="previous" href="https://blog.mame.moe/%E3%83%96%E3%83%AD%E3%82%B0%E5%A7%8B%E3%82%81%E3%81%9F/"> ブログ始めた</a>
+                
+            </div>
+            <div class="nav-next">
+                
+            </div>
+        </div>
+    </nav>
+    <section>
+        
+    </section>
+    
+
+</main>
+
+
+        <div class="sidebar1 widgets columns-1">
+
+    <aside>
+    
+</aside>
+    <aside class="widget widget_categories">
+        <h2>カテゴリ</h2>
+        <ul class="widget__list"><li class="cat-item cat-item-2">
+                <a href="/categories/hugo">hugo (2)</a>
+            </li>
+        </ul>
+    </aside>
+
+    <aside class="widget widget_tag_cloud">
+        <h2>タグ</h2>
+        <div class="tagcloud"><a class="tag-cloud-link" href="/tags/hugo" title="hugo" style="font-size: 12pt;">hugo</a>&emsp;<a class="tag-cloud-link" href="/tags/index" title="index" style="font-size: 12pt;">index</a>&emsp;
+        </div>
+    </aside>
+
+    <aside class="widget widget_recent_entries">
+        <h2>最近の投稿</h2>
+        <ul>
+            <li>
+                <a href="/hugo%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%83%A1%E3%83%A2/">Hugoセットアップメモ</a>
+            </li>
+            <li>
+                <a href="/%E3%83%96%E3%83%AD%E3%82%B0%E5%A7%8B%E3%82%81%E3%81%9F/">ブログ始めた</a>
+            </li>
+        </ul>
+    </aside>
+
+    <aside class="widget widget_archive">
+        <h2>アーカイブ</h2>
+        <ul><li><a href="/archives/2019/08">2019/08 (2)</a></li>
+        </ul>
+    </aside>
+
+</div>
+        </div>
+        </div>
+<footer role="contentinfo" class="document-footer contentinfo widgets columns-1">
+
+    <aside class="widget widget_text">
+        <div class="textwidget">
+            <p>© まめものブログ / Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/tosi29/inkblotty" target="_blank">Inkblotty</a></p>
+        </div>
+    </aside>
+</footer>
+</div>
+
+    </body>
+</html>

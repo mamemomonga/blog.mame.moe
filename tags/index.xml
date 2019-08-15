@@ -5,10 +5,29 @@
     <link>https://blog.mame.moe/tags/</link>
     <description>Recent content in Tags on まめものブログ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
+    <language>ja</language>
+    <lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.mame.moe/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hugo</title>
+      <link>https://blog.mame.moe/tags/hugo/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mame.moe/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://blog.mame.moe/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mame.moe/tags/index/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
