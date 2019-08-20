@@ -6,10 +6,46 @@
     <description>Recent content in Tags on まめものブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.mame.moe/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>debian</title>
+      <link>https://blog.mame.moe/tags/debian/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mame.moe/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blog.mame.moe/tags/linux/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mame.moe/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mount</title>
+      <link>https://blog.mame.moe/tags/mount/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mame.moe/tags/mount/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://blog.mame.moe/tags/ubuntu/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mame.moe/tags/ubuntu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>

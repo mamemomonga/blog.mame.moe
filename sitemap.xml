@@ -4,36 +4,77 @@
   
   <url>
     <loc>https://blog.mame.moe/archives/2019/08/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.mame.moe/archives/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.mame.moe/categories/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/categories/linux/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/post/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/tags/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/ubuntu-18.04-lts%E3%81%A7nautilus%E3%81%AE%E8%87%AA%E5%8B%95%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%88%E3%82%92%E7%84%A1%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/tags/debian/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/tags/linux/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/tags/mount/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/tags/ubuntu/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.mame.moe/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.mame.moe/hugo%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%83%A1%E3%83%A2/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.mame.moe/post/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.mame.moe/tags/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -45,12 +86,6 @@
   <url>
     <loc>https://blog.mame.moe/about/</loc>
     <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.mame.moe/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
