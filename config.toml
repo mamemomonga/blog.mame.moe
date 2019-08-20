@@ -13,7 +13,7 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-145920761-1"
 
 summaryLength=150
 
